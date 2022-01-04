@@ -15,3 +15,7 @@ User Stories
 >    Once a user is authenticated, the user should be able to delete a contact.
 >    Once a user is authenticated, the user should be able to view all contacts.
 >    Once a user is authenticated, the user should be able to search, and/or filter contacts.
+
+Login info:
+>   Username: LSAtest
+>   Password: Pokemon97
