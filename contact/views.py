@@ -25,4 +25,17 @@ def contactProfile(request, pk):
 
 def editContact(request, pk):
     contact = Contact.objects.get(id=pk)
+
+    if request.method == 'POST':
+        contact.full_name = request.POST['fullname']
+        contact.relationship = request.POST['relationship']
+        contact.email = request.POST['email']
+        contact.phone_number = request.POST['phone-number']
+        contact.address = request.POST['address']
+        contact.save()
+
+        return redirect('/profile/' + str(contact.id))
     return render(request, 'edit.html', {'contact': contact})
+
+def deleteContact(request, pk):
+    return render(request, 'delete.html')
