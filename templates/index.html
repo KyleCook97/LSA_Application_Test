@@ -17,9 +17,18 @@
 </head>
 
 <body>
+	
 	<div class="container">
-
 		<header class="header">
+			{% block content %}
+			{% if user.is_authenticated %}
+				<p>Hello {{ user.username }}!</p>
+				<p><a href="{% url 'logout' %}">Log Out</a></p>
+			{% else %}
+				<p>You are not logged in</p>
+				<a href="{% url 'login' %}">Log In</a>
+			{% endif %}
+			{% endblock %}
 			<form action="/" method="GET" class="search-bar" id='search-form'>
 
 				<input type="search-name" class="contact-search" name="search-area" placeholder="Search"
