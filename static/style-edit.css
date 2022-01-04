@@ -5,24 +5,30 @@
 body{
 	font-family: 'Inter', sans-serif;
 	margin: 0;
+	background-color: #CCE0DF;
+}
+
+h1{
+	font-size: 40px;
 }
 
 .container{
-	max-width: 428px;
+	max-width: 600px;
 	margin: 0 auto;
 	background-color: #313438;
-	min-height: 100vh;
+	box-shadow: 0 2px 15px #313438;
+	padding: 15px;
+    border-radius: 10px;
+	min-height: 400px;
 }
-
 
 a{
 	text-decoration: none;
 }
 
-
 .hero{
 	color: white;
-	background: linear-gradient(90deg, rgba(111,177,127,1) 0%, rgba(154,173,89,1) 100%);	
+	background: #1E6E68;	
 	padding: 2em 0; 
 }
 
@@ -35,7 +41,6 @@ a{
 .contact-info{
 	padding: 1.5em;
 }
-
 
 .hero-info{
 	display: flex;
@@ -50,9 +55,8 @@ a{
 	border-radius: 100px;
 	border-top-left-radius: 0;
 	margin: 0;
-	background-color: #75A85E;
+	background-color: #1E6E68;
 }
-
 
 .info-line{
 	display: flex;
@@ -72,7 +76,7 @@ p{
 }
 
 .icon-gradient{
-	background: linear-gradient(90deg, rgba(111,177,127,1) 0%, rgba(154,173,89,1) 100%);
+	background: #1E6E68;
 	border-radius: 100px;
 	font-size: 1.5em;
 	padding: .5em;

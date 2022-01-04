@@ -1,13 +1,18 @@
 body{
 	font-family: 'Inter', sans-serif;
 	margin: 0;
+	background-color: #CCE0DF;
 }
 
 .container{
-	max-width: 428px;
-	margin: 0 auto;
-	background-color: #313438;
-	min-height: 100vh;
+	max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 15px #313438;
+    min-height: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #313438;
+    text-align: center;
 }
 
 a{
@@ -18,7 +23,7 @@ a{
 	display: flex;
 	justify-content: space-evenly;
 	color: #fff;
-	background: linear-gradient(90deg, rgba(111,177,127,1) 0%, rgba(154,173,89,1) 100%);
+	background: #1E6E68;
 	padding: 2em 0;
 	align-items: center;
 }
@@ -73,9 +78,9 @@ hr{
 	padding: .4em .5em;
 	border-radius: 100px;
 	border-top-left-radius: 0;
-	background-color: #75A85E;
+	border-bottom-right-radius: 0;
+	background-color: #1E6E68;
 }
-
 
 .contact-section{
 	display: flex;
