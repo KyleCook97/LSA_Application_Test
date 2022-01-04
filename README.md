@@ -1,11 +1,11 @@
 # LSA_Application_Test
 A web-based address book which allows a user to manage individual contacts.
     A contact should consist of the following details (additional details are optional):
-    >• First Name
-    >• Last Name
-    >• Phone Number
-    >• Email Address
-    >• Street Address
+>• First Name
+>• Last Name
+>• Phone Number
+>• Email Address
+>• Street Address
 
 >User Stories
 >>    A user should be able to sign into the application.
