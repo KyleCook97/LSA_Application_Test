@@ -1,7 +1,10 @@
 from django.shortcuts import render, redirect
+from django.contrib.auth.decorators import login_required
 from .models import Contact
 
 # Create your views here.
+
+@login_required
 def index(request):
     contacts = Contact.objects.all()
     search_input = request.GET.get('search-area')
