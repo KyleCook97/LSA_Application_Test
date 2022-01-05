@@ -1,17 +1,17 @@
 body{
 	font-family: 'Inter', sans-serif;
 	margin: 0;
-	background-color: #CCE0DF;
+	background-color: #44AF69;
 }
 
 .container{
-	max-width: 600px;
+	max-width: 1000px;
     margin: 0 auto;
-    box-shadow: 0 2px 15px #313438;
+    box-shadow: 0 2px 15px #2B9EB3;
     min-height: 400px;
     padding: 15px;
     border-radius: 10px;
-    background-color: #313438;
+    background-color: #2B9EB3;
     text-align: center;
 }
 
@@ -23,9 +23,10 @@ a{
 	display: flex;
 	justify-content: space-evenly;
 	color: #fff;
-	background: #1E6E68;
+	background: #FCAB10;
 	padding: 2em 0;
 	align-items: center;
+	border-radius: 10px;
 }
 
 .contact-search{
@@ -38,7 +39,7 @@ a{
 
 
 .contacts-library{
-	background: #313438;
+	background: #2B9EB3;
 }
 
 .add{
@@ -55,7 +56,6 @@ i{
 	color: #fff;
 	font-size: 1.2em;
 }
-
 
 ul{
 	margin: 0;
@@ -79,7 +79,7 @@ hr{
 	border-radius: 100px;
 	border-top-left-radius: 0;
 	border-bottom-right-radius: 0;
-	background-color: #1E6E68;
+	background-color: #FCAB10;
 }
 
 .contact-section{
@@ -91,7 +91,8 @@ hr{
 }
 
 .contact-section:hover{
-	background-color: #48494a;
+	background-color: #F8333C;
+
 }
 
 .text{

@@ -5,7 +5,7 @@
 body{
 	font-family: 'Inter', sans-serif;
 	margin: 0;
-	background-color: #CCE0DF;
+	background-color: #44AF69;
 }
 
 h1{
@@ -13,10 +13,10 @@ h1{
 }
 
 .container{
-	max-width: 600px;
+	max-width: 1000px;
 	margin: 0 auto;
-	background-color: #313438;
-	box-shadow: 0 2px 15px #313438;
+	background-color: #2B9EB3;
+	box-shadow: 0 2px 15px #2B9EB3;
 	padding: 15px;
     border-radius: 10px;
 	min-height: 400px;
@@ -24,8 +24,9 @@ h1{
 
 .hero{
 	color: #fff;
-	background: #1E6E68;	
+	background: #FCAB10;	
 	padding: 2em 0; 
+	border-radius: 10px;
 }
 
 .back-btn{
@@ -54,7 +55,7 @@ h1{
 }
 
 .friend{
-	background-color: #1E6E68;
+	background-color: #FCAB10;
 }
 
 .info-line{
@@ -66,8 +67,8 @@ h1{
 	padding: 1em 2em;
 	margin-top: 2em;
 	border-radius: 20px;
-	box-shadow:  6px 6px 12px #2d2f33, 
-             -6px -6px 12px #35393d;
+	box-shadow: inset 20px 20px 60px #258698,
+            inset -20px -20px 60px #31b6ce;
 }
 
 p{
@@ -76,7 +77,7 @@ p{
 }
 
 .icon-gradient{
-	background: #1E6E68;
+	background: #FCAB10;
 	border-radius: 100px;
 	font-size: 1.5em;
 	padding: .5em;
@@ -87,7 +88,7 @@ p{
 }
 
 .edit-contact{
-	background-color: #313438;
+	background-color: #2B9EB3;
 	padding: 2.5em 3.5em;
 	text-align: center;
 	color: #fff;
